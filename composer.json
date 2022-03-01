@@ -1,0 +1,29 @@
+{
+    "name": "leo-unglaub/laravel-baseline-dev",
+    "description": "Short description",
+    "type": "library",
+    "require": {
+        "nunomaduro/larastan": "^2.0",
+        "friendsofphp/php-cs-fixer": "^3.6"
+    },
+    "license": "BSD-4-Clause",
+    "autoload": {
+        "psr-4": {
+            "LeoUnglaub\\LaravelBaselineDev\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leo Unglaub",
+            "email": "leo@unglaub.at"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LeoUnglaub\\LaravelBaselineDev\\LaravelBaselineDevServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
