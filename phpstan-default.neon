@@ -1,0 +1,12 @@
+includes:
+    - ./vendor/nunomaduro/larastan/extension.neon
+parameters:
+    paths:
+        - app
+        - bootstrap
+        - tests
+        - config
+        - routes
+    level: 5
+    ignoreErrors:
+    excludes_analyse:
