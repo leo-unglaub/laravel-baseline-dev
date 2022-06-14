@@ -24,6 +24,11 @@
                 "LeoUnglaub\\LaravelBaselineDev\\LaravelBaselineDevServiceProvider"
             ],
             "aliases": {}
+        },
+        "phpstan": {
+            "includes": [
+                "phpstan-default.neon"
+            ]
         }
     }
 }
