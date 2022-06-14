@@ -3,8 +3,8 @@
     "description": "Short description",
     "type": "library",
     "require": {
-        "nunomaduro/larastan": "^2.0",
-        "friendsofphp/php-cs-fixer": "^3.6"
+        "nunomaduro/larastan": "^2.1",
+        "friendsofphp/php-cs-fixer": "^3.8"
     },
     "license": "BSD-4-Clause",
     "autoload": {
