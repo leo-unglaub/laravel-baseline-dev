@@ -10,9 +10,6 @@ use PhpCsFixer\Config as PhpCsFixerConfig;
  */
 class Config extends PhpCsFixerConfig
 {
-	/**
-	 * {@inheritdoc}
-	 */
 	public function __construct(string $name = 'default')
 	{
 		parent::__construct();

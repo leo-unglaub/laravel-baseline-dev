@@ -10,9 +10,6 @@ use PhpCsFixer\Finder as PhpCsFixerFinder;
  */
 class Finder extends PhpCsFixerFinder
 {
-	/**
-	 * {@inheritdoc}
-	 */
 	public function __construct()
 	{
 		parent::__construct();
