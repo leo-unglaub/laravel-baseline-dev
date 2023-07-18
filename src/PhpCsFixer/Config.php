@@ -51,13 +51,9 @@ class Config extends PhpCsFixerConfig
 			'concat_space' => [
 				'spacing' => 'one',
 			],
-			'braces' => [
-				'allow_single_line_closure' => true,
-				'position_after_control_structures' => 'next',
-				'position_after_functions_and_oop_constructs' => 'next',
-			],
 			'array_indentation' => true,
 			'yoda_style' => false,
+			'control_structure_continuation_position' => 'next_line',
 			'curly_braces_position' => [
 				'control_structures_opening_brace' => 'next_line_unless_newline_at_signature_end',
 			],
