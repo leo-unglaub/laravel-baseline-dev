@@ -53,7 +53,9 @@ class Config extends PhpCsFixerConfig
 			],
 			'array_indentation' => true,
 			'yoda_style' => false,
-			'control_structure_continuation_position' => 'next_line',
+			'control_structure_continuation_position' => [
+				'position' => 'next_line',
+			],
 			'curly_braces_position' => [
 				'control_structures_opening_brace' => 'next_line_unless_newline_at_signature_end',
 			],
